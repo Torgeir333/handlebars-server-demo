@@ -4,6 +4,7 @@ Basert på eksempel fra
 https://github.com/express-handlebars/express-handlebars
 
 Kjøres med > npm install, og > npm start
+
 Server vil lytte på port 3000. 
 
 Caveat: legg merke til at app.js er byttet med 
