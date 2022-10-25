@@ -11,4 +11,6 @@ app.get('/', (req, res) => {
     res.render('home');
 });
 
-app.listen(3000, () => console.log("Server lytter på port 3000"));
+const port = process.env.PORT; // henter lokal info
+
+app.listen(3000, () => console.log(`Server på port 3000, envPort = ${port} `));
